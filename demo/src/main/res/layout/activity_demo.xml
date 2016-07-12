@@ -1,0 +1,43 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@null" >
+
+    <ScrollView
+        android:id="@+id/mScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/mEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="输入分享内容. . ."
+                 />
+
+            <Button
+                android:id="@+id/mButtonSelect"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="select" />
+            <Button
+                android:id="@+id/mButtonShare"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="share" />
+
+            <com.zfdang.demo.view.MyListView
+                android:id="@+id/mMyListView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+            </com.zfdang.demo.view.MyListView>
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>
