@@ -1,4 +1,4 @@
-package com.zfdang.demo.utils;
+package com.vincent.demo.utils;
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.File;
@@ -207,10 +207,7 @@ public class ImageFactory {
       
     /** 
      * Ratio and generate thumb to the path specified 
-     *  
-     * @param image 
-     * @param outPath 
-     * @param pixelW target pixel of width 
+     * @param pixelW target pixel of width
      * @param pixelH target pixel of height 
      * @param needsDelete 是否删除原始文件 
      * @throws FileNotFoundException 

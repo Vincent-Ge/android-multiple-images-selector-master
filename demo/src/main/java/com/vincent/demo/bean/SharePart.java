@@ -1,4 +1,4 @@
-package com.zfdang.demo.bean;
+package com.vincent.demo.bean;
 
 import java.util.ArrayList;
 

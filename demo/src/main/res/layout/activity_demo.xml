@@ -32,11 +32,11 @@
                 android:layout_height="wrap_content"
                 android:text="share" />
 
-            <com.zfdang.demo.view.MyListView
+            <com.vincent.demo.view.MyListView
                 android:id="@+id/mMyListView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" >
-            </com.zfdang.demo.view.MyListView>
+            </com.vincent.demo.view.MyListView>
         </LinearLayout>
     </ScrollView>
 

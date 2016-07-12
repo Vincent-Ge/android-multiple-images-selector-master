@@ -1,11 +1,11 @@
-package com.zfdang.demo;
+package com.vincent.demo;
 
 import android.app.Application;
 
 import com.facebook.drawee.backends.pipeline.Fresco;
 
 /**
- * Created by zfdang on 2016-4-15.
+ * Created by vincent on 2016-4-15.
  */
 public class DemoApplication extends Application
 {

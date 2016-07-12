@@ -1,4 +1,4 @@
-package com.zfdang.demo;
+package com.vincent.demo;
 
 import android.content.Context;
 import android.content.Intent;
@@ -21,12 +21,12 @@ import com.tencent.mm.sdk.modelmsg.WXMediaMessage;
 import com.tencent.mm.sdk.modelmsg.WXWebpageObject;
 import com.tencent.mm.sdk.openapi.IWXAPI;
 import com.tencent.mm.sdk.openapi.WXAPIFactory;
-import com.zfdang.demo.adapter.SharePartAdapter;
-import com.zfdang.demo.bean.SharePart;
-import com.zfdang.demo.utils.PixelFormat;
-import com.zfdang.demo.view.MyListView;
-import com.zfdang.multiple_images_selector.ImagesSelectorActivity;
-import com.zfdang.multiple_images_selector.SelectorSettings;
+import com.vincent.demo.adapter.SharePartAdapter;
+import com.vincent.demo.bean.SharePart;
+import com.vincent.demo.utils.PixelFormat;
+import com.vincent.demo.view.MyListView;
+import com.vincent.multiple_images_selector.ImagesSelectorActivity;
+import com.vincent.multiple_images_selector.SelectorSettings;
 
 import java.util.ArrayList;
 import java.util.List;

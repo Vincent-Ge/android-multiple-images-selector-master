@@ -1,4 +1,4 @@
-package com.zfdang.demo.view;
+package com.vincent.demo.view;
 
 import java.util.List;
 
@@ -7,8 +7,8 @@ import android.util.DisplayMetrics;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 
-import com.zfdang.demo.DemoActivity;
-import com.zfdang.demo.utils.ImageFactory;
+import com.vincent.demo.DemoActivity;
+import com.vincent.demo.utils.ImageFactory;
 
 public class ImageSection extends LinearLayout {
     private Context mContext;

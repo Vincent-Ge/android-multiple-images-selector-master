@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest package="com.zfdang.demo"
+<manifest package="com.vincent.demo"
           xmlns:android="http://schemas.android.com/apk/res/android">
 
     <uses-permission android:name="android.permission.INTERNET" />
@@ -23,10 +23,10 @@
         </activity>
 
         <activity
-            android:name="com.zfdang.multiple_images_selector.ImagesSelectorActivity"
+            android:name="com.vincent.multiple_images_selector.ImagesSelectorActivity"
             android:configChanges="orientation|screenSize"/>
         <activity
-            android:name="com.zfdang.demo.WXEntryActivity"
+            android:name="com.vincent.demo.WXEntryActivity"
             android:exported="true"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Translucent.NoTitleBar" />

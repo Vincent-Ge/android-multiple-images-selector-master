@@ -1,4 +1,4 @@
-package com.zfdang.demo;
+package com.vincent.demo;
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.Gravity;
@@ -12,7 +12,7 @@ import com.tencent.mm.sdk.modelbase.BaseResp;
 import com.tencent.mm.sdk.openapi.IWXAPI;
 import com.tencent.mm.sdk.openapi.IWXAPIEventHandler;
 import com.tencent.mm.sdk.openapi.WXAPIFactory;
-import com.zfdang.demo.utils.PixelFormat;
+import com.vincent.demo.utils.PixelFormat;
 
 
 /** 微信客户端回调activity示例 */  

@@ -1,4 +1,4 @@
-package com.zfdang.demo.adapter;
+package com.vincent.demo.adapter;
 
 import java.util.Collections;
 import java.util.List;
@@ -11,9 +11,9 @@ import android.widget.BaseAdapter;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.zfdang.demo.R;
-import com.zfdang.demo.bean.SharePart;
-import com.zfdang.demo.view.ImageSection;
+import com.vincent.demo.R;
+import com.vincent.demo.bean.SharePart;
+import com.vincent.demo.view.ImageSection;
 
 
 public class SharePartAdapter extends BaseAdapter{

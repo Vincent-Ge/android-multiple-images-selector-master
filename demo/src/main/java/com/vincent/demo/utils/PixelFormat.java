@@ -1,4 +1,4 @@
-package com.zfdang.demo.utils;
+package com.vincent.demo.utils;
 
 import android.app.Activity;
 import android.content.Context;
